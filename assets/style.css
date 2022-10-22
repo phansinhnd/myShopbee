@@ -1,3 +1,4 @@
+
 /* 2h30'chieu     8h49      6 tiếng */
 
 /* -------------------Header------------------ 160 dong*/
@@ -901,7 +902,13 @@
   list-style-type: none;
 }
 
-.suggestions__item-wrapper {}
+.suggestions__item-wrapper {
+transition: box-shadow .3s ease;
+}
+
+.suggestions__item-wrapper:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
 
 .suggestions__item {
   display: block;
